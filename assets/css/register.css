@@ -1,0 +1,167 @@
+/*to make look your web better. CSS organizes position, color, style */
+/*to work on css better, type the code on the web page and compiler both*/
+
+
+html,
+body{
+/*whole background image. to get rid of the space in the*/
+	padding: 0;   /*space inside of the container*/
+	margin: 0;    /*outside of the container*/
+	height: 100%;
+}
+
+#background{   
+	background-color: #000;
+	background-image:url(../images/bg.jpg);
+	background-position: center;
+	background-size: cover;
+	display: table;
+	height: 100%;
+	width: 100%;
+}
+
+#loginContainer * {
+	color: #fff;    /*color of the font on the web*/
+	font-family: "Helvetica Neue", "Arial", sans-serif;
+    font-weight: normal;
+    line-height: 1em;
+    box-sizing: border-box;
+}
+
+#loginContainer {
+	width: 80%;
+	margin: 0 auto;
+    position: relative;
+    max-width: 1024px;
+}
+
+/*Placeholder color(e.g. text color). Every brower is different. Just copy and past from online*/
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #fff;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #fff;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #fff;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #fff;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+   color:    #fff;
+}
+
+::placeholder { /* Most modern browsers support this now. */
+   color:    #fff;
+}
+
+
+#inputContainer {
+    width: 400px;
+    padding: 45px;
+    float: left;
+    border-right: 1px solid #999;
+}
+
+#inputContainer h2 {
+	text-align: center;
+}
+
+#inputContainer input[type="text"],
+#inputContainer input[type="email"],
+#inputContainer input[type="password"]{
+ 	display: block;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid #fff;
+    height: 27px;
+    line-height: 27px;
+    width: 100%;
+ }
+
+#inputContainer label {  /*text Username, password, email.. part */
+	color: #a0a0a0;
+    font-size: 13px;
+    display: block;
+    margin-top: 15px;
+}
+
+#inputContainer button {  /*Button design*/
+	background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 250px;
+    color: #fff;
+    display: block;
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin: 20px auto;
+    height: 41px;
+    width: 100%;
+}
+
+#inputContainer button:hover {  /*when mouce touchs the button, the arrow changes to a hand looking pointer*/
+	cursor: pointer;
+}
+
+.hasAccountText span{    /*message asking if you have account or not. it's . because it's class*/
+	font-weight: bold;
+    font-size: 12px;
+    cursor: pointer;  /*when mouce touchs the have account or not line, it becomes micky*/
+}
+.hasAccountText {   /*position of the message avobe*/
+	    text-align: center;
+}
+
+#registerForm,
+#loginForm{ /*to hide the thing shows when you refresh the page. it won't flash both */
+	display: none;
+}
+
+#loginText{
+	/*the word Greate music...*/
+	padding: 45px;
+    display: table-cell;
+}
+
+#loginText h1{
+	color: #eeff00;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+#loginText h2{
+	margin: 35px 0;  /*35px up and down, 0 sides*/
+}
+
+#loginText ul{
+	padding: 0;
+}
+
+#loginText li{
+	font-size: 20px;
+    list-style-type: none;
+    padding: 4px 35px;
+    background: url(../images/icons/checkmark.png) no-repeat;
+}
+
+#inputContainer .errorMessage{
+	color: #eeff02;
+    font-size: 12px;
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
